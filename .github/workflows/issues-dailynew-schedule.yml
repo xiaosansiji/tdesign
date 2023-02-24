@@ -1,6 +1,6 @@
 # 国际标准时间+8
 # 每天 issue 新增情况
-name: issues-dailyclose-schedule
+name: issues-dailynew-schedule
 
 on:
   workflow_dispatch:
@@ -16,4 +16,4 @@ jobs:
         with:
           wxhook: ${{ secrets.WX_HOOK_URL }}
           token: ${{ secrets.GIT_TOKEN_L }}
-          type: 'new'
+          type: "new"
